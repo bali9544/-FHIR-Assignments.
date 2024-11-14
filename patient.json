@@ -1,0 +1,37 @@
+
+{
+  "resourceType": "Patient",
+  "id": "bushr.aali",
+  "identifier": [
+    {
+      "system": "http://example.org/fhir/identifiers",
+      "value": "bushra ali"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "ali",
+      "given": ["bushra"]
+    }
+  ],
+  "birthDate": "2000-01-01",
+  "gender": "female",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(03) 5555 6789 ",
+      "use": "home"
+    }
+  ],
+  "address": [
+    {
+      "line": ["3300 Washtenaw"],
+      "city": "Ann Arbor",
+      "state": "MI",
+      "postalCode": "48104",
+      "country": "US",
+      "district": "Washtenaw"
+    }
+  ]
+}
